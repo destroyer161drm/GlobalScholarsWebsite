@@ -1,0 +1,51 @@
+.title{
+  text-shadow: -10px 10px 8px black;
+  box-shadow: -12px 12px 10px black;
+  border-radius: 20px;
+  padding: 5%;
+  background-color: rgb(255, 204, 0);
+  font-family: fantasy;
+  font-size: 80px;
+  color:white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.sidebar {
+  box-shadow: -12px 12px 10px black;
+  padding: 3%;
+  background-color: rgb(255, 204, 0);
+  border-radius: 20px;
+  flex: 1;
+  flex-flow: row wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.content {
+  box-shadow: -12px 12px 10px black;
+  padding: 3%;
+  background-color: white;
+  border-radius: 20px;
+  flex: 3;
+  margin-left: 20px;
+}
+
+.body {
+  background-image: url(images/backDrop6.jpg);
+  background-repeat: no-repeat;
+}
+
+.group1 {
+  border-radius: 20px;
+  box-shadow: -12px 12px 10px black;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+}
+.page {
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
